@@ -1,17 +1,29 @@
 #!/usr/bin/php -q
 <?
 /*************************************************
+Copyright (C) 2013 Victor Villarreal
+
+This file is part of viki-video-loader.
+
+    viki-video-loader is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    viki-video-loader is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with viki-video-loader.  If not, see <http://www.gnu.org/licenses/>.
+
 File:		viki-video-loader.php
-Date:		08-03-2013
-Build:		v1.0.1
+Date:		02-04-2013
+Build:		v1.1.0
 Brief:		Viki.com video & subtitles downloader
 		Code by Mefh! <mefhigoseth@gmail.com>
 
-[08-03-2013] v1.0.1 - Mefh!
-+ Fork of viki-str-loader.php and added video downloader capabilities.
-
-[05-03-2013] v1.0.0 - Mefh!
-+ First draft.
 *************************************************/
 ob_implicit_flush(TRUE);
 
